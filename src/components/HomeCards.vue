@@ -4,7 +4,6 @@ import Card from './Card.vue';
 </script>
 
 <template>
-
     <section class="py-4">
         <div class="container-xl lg:container m-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
@@ -19,7 +18,7 @@ import Card from './Card.vue';
                         Browse Jobs                        
                     </RouterLink>
                 </Card>
-                <Card bg="bg-green-100">
+                <Card bg="bg-rose-100">
                     <h2 class="text-2xl font-bold">
                         For Employers 
                     </h2>
@@ -27,7 +26,7 @@ import Card from './Card.vue';
                         List your job to find the perfect developer for the role
                     </p>
                     <RouterLink to="/add"
-                    class="inline-bloc bg-green-500 text-white rounded-lg px-4 py-2 hover:bg-green-600">
+                    class="inline-bloc bg-rose-500 text-white rounded-lg px-4 py-2 hover:bg-rose-600">
                         Add Job
                     </RouterLink>
                 </Card>
